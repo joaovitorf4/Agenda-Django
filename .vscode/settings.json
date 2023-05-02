@@ -1,0 +1,34 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "cls ; py -u",
+    },
+    "code-runner.ignoreSelection": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.unusedImports": true,
+      "source.organizeImports": true
+    },
+    "python.formatting.autopep8Args": [
+        "--indent-size=4",
+        "--max-line-length=80"
+        // "--ignore=E111"
+      ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+}

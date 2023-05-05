@@ -2,6 +2,7 @@ from distutils.command.upload import upload
 from tabnanny import verbose
 from unicodedata import category
 
+from django.contrib.auth.models import User
 from django.db import models
 from django.utils import timezone
 
@@ -31,6 +32,12 @@ class Contact(models.Model):
         Category, 
         on_delete=models.SET_NULL,
         blank=True,
+        null=True,
+    )
+    owner = models.ForeignKey(
+        User,
+        on_delete=models.SET_NULL,
+        blank=True, 
         null=True,
     )
 
